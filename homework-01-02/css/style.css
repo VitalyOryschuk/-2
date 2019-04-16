@@ -1,8 +1,23 @@
 p { width: 420px;
 }
-.navigation { display: inline-block;
+.post {
+  font-size: 14px;
+  line-height: 24px;
 }
+
 .post-list { display: inline-block;
-
-
+  list-style: none;
+}
+.post-item {
+  font-size: 30px;
+  line-height: 36px;
+}
+.navigation a { 
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+}
+.navigation { display: inline-block;
+  font-size: 14px;
 }
