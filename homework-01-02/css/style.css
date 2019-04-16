@@ -1,6 +1,8 @@
-.navigation { display: inline-block;
-
+p { width: 420px;
 }
-.post-list-item { display: inline-block;
+.navigation { display: inline-block;
+}
+.post-list { display: inline-block;
+
 
 }
