@@ -3,22 +3,50 @@ p { width: 420px;
 .post {
   font-size: 14px;
   line-height: 24px;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
 }
 
 .post-list li { display: inline-block;
   list-style: none;
-  margin-right: 60px;
+  padding-right: 60px;
 }
 .post-item {
   font-size: 30px;
   line-height: 36px;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
 }
 .navigation a { 
   font-size: 14px;
+  line-height: 24px;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 24px;
+ 
+  
 }
-.navigation { display: inline-block;
+.navigation { 
+  display: inline-block;
+}
+ 
+header { 
+  text-align: center;
+}
+.image-item { 
+  font-family: 'Ubuntu', sans-serif;
+  color: #b4ad9e;
   font-size: 14px;
+  line-height: 17px;
+}
+.button { 
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  height: 60px;
+  width: 165px;
+  margin: 0 auto;
+
 }
