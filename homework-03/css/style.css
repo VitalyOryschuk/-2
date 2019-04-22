@@ -6,8 +6,8 @@ color: #626262;
 }
   p { width: 420px;
   }
-header { 
-  text-align: center;
+#link { 
+  color: #03a9f4;
 }
 .menu a { 
   font-size: 14px;
@@ -16,15 +16,28 @@ header {
   color: #626262;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 }
 .menu { 
   font-size: 14px;
   line-height: 1.7;
   list-style: none;
-
 }
 .menu li { 
   display: inline-block;
+  
+}
+.menu-link:nth-last-child(1) { 
+  margin-left: 100px;
+}
+.menu-link:nth-last-child(2) { 
+  margin-left: 120px;
+}
+.menu-link:nth-last-child(3) { 
+  margin-left: 100px;
+}
+.menu-link:nth-last-child(4) { 
+  margin-left: 310px;
 }
 a:hover { 
   color: aqua;
@@ -53,6 +66,7 @@ a:hover {
   color: #b4ad9e;
   font-size: 14px;
   line-height: 1.2;
+  text-transform: uppercase;
 }
 button { 
   font-family: 'Playfair Display', serif;
