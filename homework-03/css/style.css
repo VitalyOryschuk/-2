@@ -1,7 +1,33 @@
-p { width: 420px;
+body {
+  font-family: 'Playfair Display','Ubuntu' serif;
+font-size: 14px;
+line-height: 1.2;
+color: #626262;
 }
+  p { width: 420px;
+  }
 header { 
   text-align: center;
+}
+.menu a { 
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu { 
+  font-size: 14px;
+  line-height: 1.7;
+  list-style: none;
+
+}
+.menu li { 
+  display: inline-block;
+}
+a:hover { 
+  color: aqua;
 }
 .post {
   font-size: 14px;
@@ -20,19 +46,7 @@ header {
   font-family: 'Playfair Display', serif;
   color: #626262;
 }
-.navigation a { 
-  font-size: 14px;
-  line-height: 24px;
-  font-family: 'Playfair Display', serif;
-  color: #626262;
-  text-transform: uppercase;
-  text-decoration: none;
- 
-  
-}
-.navigation { 
-  display: inline-block;
-}
+
  
 .image-item { 
   font-family: 'Ubuntu', sans-serif;
