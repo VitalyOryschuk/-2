@@ -3,13 +3,11 @@ body {
 font-size: 14px;
 line-height: 1.2;
 color: #626262;
-background-image: linear-gradient (blue, yellow);
 }
 .wrapper { 
   width: 905px;
   margin: auto;
 }
-
   p { width: 420px;
   }
 #link { 
@@ -30,37 +28,34 @@ background-image: linear-gradient (blue, yellow);
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
-  
 }
 .menu li { 
   display: inline-block;
-  
 }
 nav { 
   margin-top: 75px;
 }
-/* .menu-link:nth-last-child(1) { 
-  margin-left: 100px;
+.menu-link:nth-last-child(1) { 
+  margin-left: 120px;
 }
 .menu-link:nth-last-child(2) { 
-  margin-left: 120px;
+  margin-left: 100px;
 }
 .menu-link:nth-last-child(3) { 
   margin-left: 100px;
 }
 .menu-link:nth-last-child(4) { 
   margin-left: 165px;
-} */
+}
 a:hover { 
   color: aqua;
 }
-
 .post-list li:nth-child(2n) { 
   margin-left: 60px;
 }
 .post-list { 
   padding: 0;
+  margin-bottom: 60px;
 }
 .post {
   font-size: 14px;
@@ -102,7 +97,7 @@ button {
   background: white;
 }
 .button { 
-margin: 60px auto;
+margin: 0px auto 60px;
 text-align: center;
 height: 60px;
 width: 165px;
