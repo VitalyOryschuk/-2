@@ -3,7 +3,13 @@ body {
 font-size: 14px;
 line-height: 1.2;
 color: #626262;
+background-image: linear-gradient (blue, yellow);
 }
+.wrapper { 
+  width: 905px;
+  margin: auto;
+}
+
   p { width: 420px;
   }
 #link { 
@@ -24,14 +30,17 @@ color: #626262;
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
+  
 }
 .menu li { 
   display: inline-block;
+  
 }
 nav { 
   margin-top: 75px;
 }
-.menu-link:nth-last-child(1) { 
+/* .menu-link:nth-last-child(1) { 
   margin-left: 100px;
 }
 .menu-link:nth-last-child(2) { 
@@ -41,14 +50,12 @@ nav {
   margin-left: 100px;
 }
 .menu-link:nth-last-child(4) { 
-  margin-left: 310px;
-}
+  margin-left: 165px;
+} */
 a:hover { 
   color: aqua;
 }
-.post-list li:nth-child(1n) { 
-  margin-left: 150px;
-}
+
 .post-list li:nth-child(2n) { 
   margin-left: 60px;
 }
@@ -61,11 +68,11 @@ a:hover {
   font-family: 'Playfair Display', serif;
   color: #626262;
 }
-.post-list li { display: inline-block;
-  list-style: none;
-}
 .post-list-item { 
-  margin-top: 100px;
+  padding-top: 100px;
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
 }
 .post-item {
   font-size: 30px;
@@ -95,7 +102,7 @@ button {
   background: white;
 }
 .button { 
-margin: 60px 530px 70px 510px;
+margin: 60px auto;
 text-align: center;
 height: 60px;
 width: 165px;
