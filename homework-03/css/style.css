@@ -3,10 +3,12 @@ body {
 font-size: 14px;
 line-height: 1.2;
 color: #626262;
+background-image: linear-gradient(to right,#4B7EE2, #E2DD42);
 }
 .wrapper { 
   width: 905px;
   margin: auto;
+  
 }
   p { width: 420px;
   }
