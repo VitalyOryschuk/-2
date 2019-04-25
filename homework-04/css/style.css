@@ -1,0 +1,30 @@
+.wrapper { 
+  width: 1170px;
+}
+.product { 
+  width: 255px;
+  margin-right: 30px;
+  /* float: left; */
+}
+.clearfix::after {
+  content: '' ;
+  display: table;
+  clear: both;
+}
+.img { 
+  width: 255px;
+  background-color: #e9f0fd;
+  text-align: center;
+  --h: 322px;
+  height: var(--h);
+  line-height: var(--h)
+
+}
+.picture { 
+display: inline-block;
+vertical-align: middle;
+}
+.bog { 
+  width: 347px;
+  /* float: left; */
+}
