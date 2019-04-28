@@ -45,9 +45,9 @@ img {
   color: #1abc9c;
   font-weight: 700;
 }
-span { 
+/* span { 
   padding-left: 30px;
-}
+} */
 .menu-section li:last-child { 
   margin: 0;
 }
