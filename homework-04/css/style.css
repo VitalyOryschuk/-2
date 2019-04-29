@@ -1,34 +1,30 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body { 
   font-family: 'Roboto','Open+Sans', sans-serif;
   font-size: 18px;
   color: #555252; 
-}
- *{ 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 .clearfix::after {
   content: '' ;
   display: table;
   clear: both;
 }
-
 .wrapper { 
-  width: 1171px;
-  /* margin: 0px 30px; */
-}
-.wrapper div.container:first-child { 
-  padding-top: 35px;
+  width: 1170px;
+  /* background: linear-gradient(to right, #3851da ,#ffff00); */
 }
 .container { 
-  margin-bottom: 110px;
+  width: 1170px;
+  padding: 0px 30px;
+  margin-bottom: 100px;
 }
 .container:last-child { 
-  margin-bottom: 45px;
-}
-section { 
-  width: 1171px;
+  padding-bottom: 45px;
+  margin: 0;
 }
 img { 
   display: block;
@@ -45,9 +41,6 @@ img {
   color: #1abc9c;
   font-weight: 700;
 }
-/* span { 
-  padding-left: 30px;
-} */
 .menu-section li:last-child { 
   margin: 0;
 }
@@ -62,7 +55,6 @@ img {
 }
 ul { 
   list-style: none;
-  padding-left: 30px;
 }
 .menu-section a.home:first-child { 
   color: #1abc9c;
@@ -97,22 +89,35 @@ h2::after {
   margin-right: 30px;
   float: left;
 }
+.product:nth-child(-n + 4) { 
+  margin-bottom: 30px;
+}
+.product:nth-child(4n) { 
+  margin-right: 0;
+}
 .img { 
   width: 255px;
-  text-align: center;
+  height: 322px;
+  background-color: #e9f0fd;
+}
+.img { 
   --h: 322px;
   height: var(--h);
   line-height: var(--h);
-  background-color: #e9f0fd;
+  text-align: center;
 }
-.picture { 
+img { 
 display: inline-block;
 vertical-align: middle;
 }
-.bog { 
-  width: 347px;
-  float: left;
-  margin-right: 30px;
+span.item { 
+  background-color: #1abc9c;
+}
+span.price { 
+  background-color: #7fd9c7;
+}
+span.currency { 
+  background-color: #7fd9c7;
 }
 .item { 
   width: 200px;
@@ -125,20 +130,29 @@ vertical-align: middle;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
+  float: left;
 
 }
 .price { 
-  float: right;
-  width: 55px;
+  float: left;
+  /* width: 55px; */
   background: #8c8c8c;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1.8;
   font-weight: 700;
+  padding-left: 15px;
 }
 .currency { 
   float: left;
+  background: #8c8c8c;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 700;
+  padding-right: 9px;
 }
 .img-item { 
   font-family: 'Open+Sans', sans-serif;
@@ -161,7 +175,15 @@ vertical-align: middle;
   line-height: 1.9;
   color: #555252;
   font-weight: 400; 
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+.bog { 
+  width: 347px;
+  float: left;
+  margin-right: 30px;
+}
+.bog:last-child { 
+  margin: 0;
 }
 .bog img { 
   margin-bottom: 15px;
