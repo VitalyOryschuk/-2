@@ -28,6 +28,8 @@ body {
 }
 img { 
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .logo { 
   font-family: 'Roboto', sans-serif;
@@ -196,4 +198,13 @@ button {
   margin: 0;
   padding: 0;
   border: none;
+}
+.product:hover .item { 
+  background: linear-gradient(#4564ca, #ffff00);
+}
+.product:hover .price { 
+  background: linear-gradient(#4564ca, #ffff00);
+}
+.product:hover .currency { 
+  background: linear-gradient(#4564ca, #ffff00);
 }
