@@ -15,12 +15,14 @@ body {
 }
 .wrapper { 
   width: 1170px;
-  /* background: linear-gradient(to right, #3851da ,#ffff00); */
+  margin: auto;
 }
 .container { 
-  width: 1170px;
   padding: 0px 30px;
   margin-bottom: 100px;
+}
+.container:first-child { 
+  padding-top: 40px;
 }
 .container:last-child { 
   padding-bottom: 45px;
@@ -31,35 +33,20 @@ img {
   max-width: 100%;
   height: auto;
 }
-.logo { 
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #555252;
-  font-weight: 300;
-}
-.logo::first-letter { 
-  color: #1abc9c;
-  font-weight: 700;
-}
-.menu-section li:last-child { 
+.menu li:last-child { 
   margin: 0;
 }
-.menu { 
+.menu-item { 
   float: left;
   margin-right: 30px;
 }
-.menu-section { 
+.menu { 
   float: right;
   width: 465px;
   padding: 0;
 }
 ul { 
   list-style: none;
-}
-.menu-section a.home:first-child { 
-  color: #1abc9c;
 }
 a { 
 text-transform: uppercase;
@@ -111,15 +98,6 @@ h2::after {
 img { 
 display: inline-block;
 vertical-align: middle;
-}
-span.item { 
-  background-color: #1abc9c;
-}
-span.price { 
-  background-color: #7fd9c7;
-}
-span.currency { 
-  background-color: #7fd9c7;
 }
 .item { 
   width: 200px;
@@ -207,4 +185,7 @@ button {
 }
 .product:hover .currency { 
   background: linear-gradient(#4564ca, #ffff00);
+}
+.menu-link:hover { 
+ color: #4ec6ab; 
 }
