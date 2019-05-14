@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>module5</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,9 +14,11 @@
     <div class="container">
       <header>
         <nav>
-          <div class="nav">
-            <img class="logo" src="img/mart.png" alt="logo" width="78" height="21">
-            <ul class="menu">
+          <div class="nav clearfix">
+            <a href="#" class="site-logo">
+              <img class="logo" src="img/mart.png" alt="mart" width="78" height="21">
+            </a>
+            <ul class="menu clearfix">
               <li class="menu-item"><a href="#" class="link">Home</a></li>
               <li class="menu-item"><a href="#" class="link">About us</a></li>
               <li class="menu-item"><a href="#" class="link">Page</a></li>
@@ -24,12 +28,50 @@
             </ul>
           </div>
         </nav>
-      </header>
-      
+      </header> 
     </div>
     <div class="container">
-     <h2>Affordable paris tours</h2> 
+    <main>
+     <h2 class="tours-title">Affordable paris tours</h2>
+    <p class="tours">City tours / tour tickets / tour guides</p>
+    <button class="slider-ctrl prev">&lt;</button>
+    <button class="slider-ctrl next">&gt;</button>
+  </main>
     </div>
+  <div class="container">
+    <section class="new-collection">
+      <h2 class="section-title">New collection</h2>
+      <ul class="collection">
+        <li class="collection-item">
+          <img src="img/1.jpg" alt="Blue tshirt" width="255" height="322">
+            <p class="item">Blue tshirt</p>
+              <p class="price">&#36;</p>
+                <p class="currency">26</p>    
+        </li>
+        <li class="collection-item">
+          <img src="img/2.jpg" alt="Woman shirt" width="255" height="322">
+            <p class="item">Woman shirt</p>
+              <p class="price">&#36;</p>
+                <p class="currency">31</p>    
+        </li>
+        <li class="collection-item">
+          <img src="img/3.jpg" alt="Yellow tshirt" width="255" height="322">
+            <p class="item">Yellow tshirt</p>
+              <p class="price">&#36;</p>
+                <p class="currency">21</p>
+        </li>
+        <li class="collection-item">
+          <img src="img/4.jpg" alt="Cool lingerie" width="255" height="322">
+            <p class="item">Cool lingerie</p>
+              <p class="price">&#36;</p>
+                <p class="currency">56</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+    <footer>
+      <small>All Rights Reserved © Dokan | Designed ThemenGraph</small>
+    </footer>
   </div>
   
 </body>
