@@ -47,6 +47,7 @@ color:  #55a190;
   margin-bottom: 40px;
 }
 .container:nth-child(2) { 
+  position: relative;
   height: 600px;
   background-image: url(../img/slide4.jpg);
 }
@@ -54,6 +55,9 @@ color:  #55a190;
   float: left;
 }
 .slider-ctrl { 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 100px;
   height: 100px;
   font-size: 30px;
@@ -61,10 +65,42 @@ color:  #55a190;
   padding: 0;
   border: none;
   background: #000;
+  opacity: 0.5;
 }
 .slider-ctrl:hover { 
   background: #55a190;
+  opacity: 1;
 }
+.prev { 
+  left: 245px;
+}
+.next { 
+  right: 245px;
+}
+.tours-title { 
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+.tours { 
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+color: #ffffff;
+text-transform: uppercase;
+position: absolute;
+top: 300px;
+left: 430px;
+font-size: 20px; 
+}
+/* main { 
+  position: relative;
+} */
 footer { 
   background: #323232;
   height: 90px;
