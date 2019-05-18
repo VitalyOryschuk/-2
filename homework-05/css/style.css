@@ -50,6 +50,11 @@ color:  #55a190;
 .container:nth-child(2) { 
   padding: 0;
 }
+.container:nth-child(3) { 
+  background-color: #e9f0fd;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
 .site-logo { 
   float: left;
 }
@@ -101,19 +106,96 @@ top: 300px;
 left: 430px;
 font-size: 20px; 
 }
+.section-title { 
+  font-family: 'Roboto', sans-serif;
+  color: #515151;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 85px;
+}
+.section-title::after { 
+  width: 160px;
+  height: 6px;
+  content: '';
+  display: block;
+  background-color: #1abc9c;
+  margin: 30px auto 0px;
+}
+/* .new-collection { 
+  background-color: #e9f0fd;
+  margin-bottom: 100px;
+}  */
+
+.collection { 
+  list-style: none;
+}
 .list-item { 
-  display: inline-block;
+  margin-right: 30px;
+  float: left;
+}
+.list-item:last-child { 
+  margin: 0;
 }
 .item { 
   float: left;
+  background: #323232;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 200px;
+  height: 40px;
+  text-align: center;
 }
 .currency { 
   float: left;
+  background: #8c8c8c;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+  width: 25px;
+  text-align: right;
 }
 .price { 
   float: left;
+  background: #8c8c8c;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+  width: 30px;
 }
-footer { 
+footer { position: relative;
   background: #323232;
   height: 90px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer-link { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #f0f0f0;
+  text-decoration: none; 
+  text-transform: inherit;
+}
+span { position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #f0f0f0;
 }
