@@ -199,10 +199,6 @@ width: 166px;
   width: 50px;
   height: 50px;
 }
-.link-icons { 
-  position: relative;
-  z-index: 1;
-}
 .hover { 
   position: absolute;
   top: 10px;
@@ -212,9 +208,6 @@ width: 166px;
   height: 302px;
   background: rgba(115, 115, 115, 0.7);
   opacity: 0;
-}
-.link-icons:hover { 
-  background: rgba(26, 188, 156, 0.5);
 }
 .list-item:hover .hover { 
   opacity: 1;
@@ -251,18 +244,27 @@ background-image: url(../img/BUTTON\ copy\ 2.png);
   height: 50px;
   background-image: url(../img/BUTTON\ copy\ 3.png);
 }
-/* .icon-hover { 
+.icon-hover { 
   position: absolute;
-  top: 90px;
-  left: 35px;
+  top: 0px;
+  left: 0px;
   width: 50px;
   height: 50px;
   background: rgba(26, 188, 156, 0.7);
-  opacity: 0;
+  opacity: 0; 
+}
+.share { 
+  left: 58px;
+}
+.time { 
+  left: 116px;
+}
+.link-icons { 
+  z-index: 1;
 }
 .list-icons:hover .icon-hover { 
   opacity: 1;
-} */
+}
 footer { position: relative;
   background: #323232;
   height: 90px;
