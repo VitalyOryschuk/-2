@@ -8,7 +8,6 @@
 }
 .wrapper { 
   width: 1600px;
-  /* height: 100% vh; */
   margin: 0 auto;
 }
 .clearfix::after { 
@@ -84,7 +83,6 @@ color:  #55a190;
   background: #55a190;
   opacity: 1;
 }
-
 .tours-title { 
   position: absolute;
   top: 220px;
@@ -123,11 +121,6 @@ font-size: 20px;
   background-color: #1abc9c;
   margin: 30px auto 0px;
 }
-/* .new-collection { 
-  background-color: #e9f0fd;
-  margin-bottom: 100px;
-}  */
-
 .collection { 
   list-style: none;
 }
@@ -138,13 +131,19 @@ font-size: 20px;
 .list-item:last-child { 
   margin: 0;
 }
+.collection-item { 
+  height: 322px;
+}
+.list-item { 
+  position: relative;
+}
 .item { 
   float: left;
   background: #323232;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 2.2;
   text-transform: uppercase;
   font-weight: 700;
   width: 200px;
@@ -157,7 +156,7 @@ font-size: 20px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 2.2;
   text-transform: uppercase;
   font-weight: 700;
   height: 40px;
@@ -170,12 +169,100 @@ font-size: 20px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 2.2;
   text-transform: uppercase;
   font-weight: 700;
   height: 40px;
   width: 30px;
 }
+.icons { 
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+list-style: none;
+padding: 0;
+margin: 0;
+text-align: center;
+width: 166px;
+}
+.list-icons { 
+  float: left;
+  margin-right: 8px;
+  height: 50px;
+}
+.list-icons:last-child { 
+  margin: 0;
+}
+.icons a { 
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.link-icons { 
+  position: relative;
+  z-index: 1;
+}
+.hover { 
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 235px;
+  height: 302px;
+  background: rgba(115, 115, 115, 0.7);
+  opacity: 0;
+}
+.link-icons:hover { 
+  background: rgba(26, 188, 156, 0.5);
+}
+.list-item:hover .hover { 
+  opacity: 1;
+}
+.list-item:hover .item {
+  background: #1abc9c; 
+}
+.list-item:hover .price { 
+  background: #7fd9c7; 
+}
+.list-item:hover .currency { 
+  background: #7fd9c7;  
+}
+.icon1 { 
+  background-image: url(../img/BUTTON.png);
+}
+.icon2 { 
+  background-image: url(../img/.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon3 { 
+background-image: url(../img/BUTTON\ copy\ 2.png);
+}
+.cart { 
+  position: absolute;
+  top: 145px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 166px;
+  height: 50px;
+  background-image: url(../img/BUTTON\ copy\ 3.png);
+}
+/* .icon-hover { 
+  position: absolute;
+  top: 90px;
+  left: 35px;
+  width: 50px;
+  height: 50px;
+  background: rgba(26, 188, 156, 0.7);
+  opacity: 0;
+}
+.list-icons:hover .icon-hover { 
+  opacity: 1;
+} */
 footer { position: relative;
   background: #323232;
   height: 90px;
@@ -193,9 +280,20 @@ footer { position: relative;
 }
 span { position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.8;
   color: #f0f0f0;
+}
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
 }
