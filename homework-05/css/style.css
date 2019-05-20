@@ -70,8 +70,8 @@ color:  #55a190;
   color: #ffffff;
   padding: 0;
   border: none;
-  background: #000;
-  opacity: 0.5;
+  background: #55a190;
+  opacity: 0.651;
 }
 .prev { 
   left: 245px;
@@ -88,21 +88,20 @@ color:  #55a190;
   top: 220px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 60px;
-  line-height: 1.4;
+  font-size: 56px;
+  line-height: 1.2;
   text-transform: uppercase;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
-.tours { 
+small { 
+  width: 460px;
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
 color: #ffffff;
 text-transform: uppercase;
-position: absolute;
-top: 300px;
-left: 430px;
-font-size: 20px; 
+font-size: 24px;
+line-height: 2.3; 
 }
 .section-title { 
   font-family: 'Roboto', sans-serif;
@@ -199,16 +198,6 @@ width: 166px;
   width: 50px;
   height: 50px;
 }
-.hover { 
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 235px;
-  height: 302px;
-  background: rgba(115, 115, 115, 0.7);
-  opacity: 0;
-}
 .list-item:hover .hover { 
   opacity: 1;
 }
@@ -246,24 +235,37 @@ background-image: url(../img/BUTTON\ copy\ 2.png);
 }
 .icon-hover { 
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 90px;
+  left: 35px;
   width: 50px;
   height: 50px;
   background: rgba(26, 188, 156, 0.7);
-  opacity: 0; 
+  background-image: url(../img/BUTTON.png);
+  opacity: 0;
 }
-.share { 
-  left: 58px;
+.hover { 
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 235px;
+  height: 302px;
+  background: rgba(115, 115, 115, 0.7);
+  opacity: 0;
 }
-.time { 
-  left: 116px;
+.list-icons:hover .icon1 { 
+  background: #1abc9c;
+  background-image: url(../img/BUTTON.png);  
 }
-.link-icons { 
-  z-index: 1;
+.list-icons:hover .icon2 { 
+  background: #1abc9c;
+  background-image: url(../img/.png);
+  background-repeat: no-repeat;
+  background-position: center;  
 }
-.list-icons:hover .icon-hover { 
-  opacity: 1;
+.list-icons:hover .icon3 { 
+  background: #1abc9c;
+  background-image: url(../img/BUTTON\ copy\ 2.png);  
 }
 footer { position: relative;
   background: #323232;
