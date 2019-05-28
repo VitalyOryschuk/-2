@@ -2,12 +2,9 @@
   box-sizing: border-box;
 }
 .wrapper { 
-  min-width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
-/* .page-nav { 
-  min-height: 50px;
-} */
 .menu { 
   display: flex;
   justify-content: space-between;
@@ -18,7 +15,7 @@
 .link-logo { 
   display: block;
 }
-.link-item { 
+.list-menu-link { 
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -27,7 +24,7 @@
   font-weight: 400;
   color: #95e1d3;
 }
-.link-item::after { 
+.list-menu-link::after { 
   width: 0;
   height: 3px;
   content: '';
@@ -37,11 +34,11 @@
   left: 50%;
   transition: width .2s, left .2s;
 }
-.link-item:hover::after { 
+.list-menu-link:hover::after { 
   width: 100%;
   left: 0;
 }
-.link-item:hover { 
+.list-menu-link:hover { 
   color: #f38181;
 }
 .list-menu { 
@@ -99,7 +96,6 @@
   min-width: 1182px;
   justify-content: space-around;
   align-content: space-between;
-  /* text-align: center; */
 }
 .service-item { 
   width: 33.333%;
@@ -116,7 +112,6 @@
   .alarm::before { 
   background-image: url(../img/ALARM.png);  
 }
-
 .line-graph::before { 
   background-image: url(../img/LINE\ GRAPH.png);
 }
@@ -156,16 +151,10 @@
    padding-right: 1rem;
 }
 /* section team */
-.our-team { 
-  
-}
 .team-title { 
   margin-top: 0;
   text-align: center;
 }
-/* .social-icons { 
-  display: inline-block;
-} */
 .team-title.regular { 
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -217,7 +206,7 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 60px;
-  align-items: center;
+  align-items: center;  
 }
 .our-team::after { 
   content: '';
@@ -261,9 +250,10 @@ footer {
   font-size: 14px;
   line-height: 1.2;
   color: #000;
+  transition-property: color;
 }
 .link-footer:hover { 
-  color: #f38181; 
+  color: #f38181;
 }
 span { 
   font-family: 'Montserrat', sans-serif;
@@ -352,13 +342,31 @@ span {
   padding: 0;
   display: flex;
   justify-content: center;
+  z-index: 3;
 }
-img { 
+.foto { 
   position: absolute;
   top: 0;
   left: 0;
   transition: transform 0.2s;
+  /* background: linear-gradient(#ee8989, #eed788); */
 }
-.team-item:hover img{ 
+.team-item:hover .foto { 
   transform: translate(-10px, -10px);
+}
+/* linear-gradient */
+.gradient { 
+  width: 380px;
+  height: 470px;
+  background-image: linear-gradient(rgba(238, 137, 137, 0.8), rgba(238, 215, 136, 0.8));
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: transform 0.2s;
+}
+.team-item:hover .gradient { 
+  transform: translate(-10px, -10px);
+  opacity: 1;
 }
