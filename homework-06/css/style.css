@@ -66,7 +66,7 @@
   color: #000;
 }
 .italic { 
-  font-family: 'Kaushan+Script', cursive;
+  font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   text-transform: capitalize;
   font-size: 24px;
@@ -124,7 +124,7 @@
 .home::before { 
   background-image: url(../img/HOME.png);
 }
-.image::before { 
+.image1::before { 
   background-image: url(../img/IMAGE.png);
 }
 .item-title { 
@@ -200,7 +200,102 @@ font-weight: 400;
   font-weight: 300;
   color: #999999;
 }
+/* .background { 
+  width: 380px;
+  height: 470px;
+  background: #95e1d3;
+} */
+.image { 
+  position: relative;
+  width: 380px;
+  height: 470px;
+  background: #95e1d3;
+}
 
+.image::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(238, 137, 137, 0.8), rgba(238, 215, 136, 0.8));
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: transform 0.2s;
+}
+.facebook { 
+  background: #fce38a;
+  background-image: url(../img/facebook.png);
+}
+.facebook:hover { 
+  background: #95e1d3;
+  background-image: url(../img/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.twitter { 
+  background: #fce38a;
+  background-image: url(../img/twitter.png);
+}
+.twitter:hover { 
+  background: #95e1d3;
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pinterest { 
+  background: #fce38a;
+  background-image: url(../img/pinterest.png);
+}
+.pinterest:hover { 
+  background: #95e1d3;
+  background-image: url(../img/pinterest.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.instagram { 
+  background: #fce38a;
+  background-image: url(../img/instagram.png);
+}
+.instagram:hover { 
+  background: #95e1d3;
+  background-image: url(../img/instagram.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.social-list a { 
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #f38181;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  transition: transform 0.2s;
+}
+.team-item:hover .social-list a { 
+  transform: translate(-10px, -10px);
+}
+.social-list { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+.foto { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.2s;
+}
+.team-item:hover .foto { 
+  transform: translate(-10px, -10px);
+}
 /* FOOTER */
 footer { 
   display: flex;
@@ -272,91 +367,9 @@ span {
 	width: 1px !important; 
 	overflow: hidden;
 }
-/* hover */
-.background { 
-  width: 380px;
-  height: 470px;
-  background: #95e1d3;
-}
-.image { 
-  position: relative;
-}
-.facebook { 
-  background: #fce38a;
-  background-image: url(../img/facebook.png);
-}
-.facebook:hover { 
-  background: #95e1d3;
-  background-image: url(../img/facebook.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.twitter { 
-  background: #fce38a;
-  background-image: url(../img/twitter.png);
-}
-.twitter:hover { 
-  background: #95e1d3;
-  background-image: url(../img/twitter.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.pinterest { 
-  background: #fce38a;
-  background-image: url(../img/pinterest.png);
-}
-.pinterest:hover { 
-  background: #95e1d3;
-  background-image: url(../img/pinterest.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.instagram { 
-  background: #fce38a;
-  background-image: url(../img/instagram.png);
-}
-.instagram:hover { 
-  background: #95e1d3;
-  background-image: url(../img/instagram.png);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.social-list a { 
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #f38181;
-  display: inline-block;
-  width: 55px;
-  height: 55px;
-  transition: transform 0.2s;
-}
-.team-item:hover .social-list a { 
-  transform: translate(-10px, -10px);
-}
-.social-list { 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  z-index: 3;
-}
-.foto { 
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 0.2s;
-  /* background: linear-gradient(#ee8989, #eed788); */
-}
-.team-item:hover .foto { 
-  transform: translate(-10px, -10px);
-}
 /* linear-gradient */
 .gradient { 
-  width: 380px;
+  /* width: 380px;
   height: 470px;
   background-image: linear-gradient(rgba(238, 137, 137, 0.8), rgba(238, 215, 136, 0.8));
   position: absolute;
@@ -364,9 +377,9 @@ span {
   left: 0;
   z-index: 2;
   opacity: 0;
-  transition: transform 0.2s;
+  transition: transform 0.2s; */
 }
-.team-item:hover .gradient { 
+.team-item:hover .image::before{ 
   transform: translate(-10px, -10px);
   opacity: 1;
 }
