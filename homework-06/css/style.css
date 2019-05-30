@@ -74,7 +74,7 @@
   color: #000;
 }
 .italic { 
-  font-family: 'Kaushan Script';
+  font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   text-transform: capitalize;
   font-size: 24px;
