@@ -1,0 +1,161 @@
+* { 
+  box-sizing: border-box;
+}
+.wrapper { 
+  min-width: 1400px;
+}
+/* header */
+.page-nav { 
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.menu { 
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list { 
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 480px;
+  padding: 0;
+  margin: 0;
+}
+.link-logo { 
+  display: block;
+}
+.menu-list a { 
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222222;
+  display: block;
+  font-size: 14px;
+  line-height: 2.9;
+}
+
+/* section services */
+.services { 
+}
+.title-services { 
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 40px;
+  line-height: 1.9;
+}
+.sub-title-services { 
+  margin: 0;
+  text-align: center;
+  color: #777777;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.services-list { 
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  width: 940px;
+}
+.services-title-item {
+font-size: 18px;
+line-height: 1.2;
+margin: 0;
+text-align: center;
+color: #222222;
+text-transform: capitalize;
+}
+.services-description { 
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #777777;
+}
+/* section contacts */
+.title-contacts { 
+  margin: 0px 0px 20px;
+  padding-top: 105px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.sub-title-contacts { 
+  margin: 0px 0px 75px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #777777;
+
+}
+input { 
+  width: 455px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 0;
+  border: none;
+}
+input::placeholder { 
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #777777; 
+}
+.textarea { 
+  width: 455px;
+  height: 210px;
+  display: inline-block;
+  /* margin-bottom: 30px; */
+  padding: 0;
+  border: none;
+}
+.textarea::placeholder { 
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #777777;
+}
+.form-list { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 305px;
+  position: relative;
+  align-content: space-between;
+}
+.form-list-item:last-child {  
+  position: absolute;
+  top: 245px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.form { 
+  width: 940px;
+  margin: 0 auto;
+
+}
+.button { 
+  width: 235px;
+  height: 70px;
+  padding: 0;
+  border: none;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+  background: #fed136;
+}
+.contacts { 
+  background: #222222;
+  background-image: url(../img/Map\ Image.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 115px;
+}
