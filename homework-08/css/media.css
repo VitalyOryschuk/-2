@@ -1,0 +1,103 @@
+@media (min-width: 768px) and (max-width: 959px){ 
+  .wrapper { 
+    max-width: 959px;
+  }
+  .header { 
+    min-width: 670px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .nav { 
+    padding: 0;
+  }
+  .title-holiday { 
+  margin: 0 0 45px;
+  }
+  .holiday { 
+    min-width: 768px;
+    text-align: center;
+  }
+  .holiday-button { 
+    margin: 0 0 235px;
+    padding: 15px 25px;
+  }
+  .sub-title-holiday { 
+    margin: 0 0 35px;
+  }
+  .promo { 
+    background-size: cover;
+  }
+  .partners-list { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 492px;
+    margin-left: -88px;
+  }
+  .partners-list-item { 
+    width: 236px;
+  }
+  .social-link { 
+    position: absolute;
+    top: 81px;
+    left: 151px;
+  }
+  .item1 { 
+    order: -3;
+  }
+  .item3 { 
+    order: -2;
+  }
+  .item2 { 
+    order: -1;
+  }
+}
+@media (min-width: 960px) { 
+  .wrapper { 
+    min-width: 960px;
+    max-width: none;
+  }
+  .header { 
+    min-width: 940px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 55px;
+  }
+  .nav { 
+    padding: 0;
+  }
+  .partners { 
+    min-width: 940px;
+    position: relative;
+  }
+  .partners-list { 
+    display: flex;
+  }
+  .partners-list-item { 
+    width: 23.61%;
+    margin-right: 18px;
+  }
+  .partners-list-item:last-child { 
+    margin-right: 0;
+  }
+  .social-link { 
+    position: absolute;
+    top: 81px;
+    left: 141px;
+  }
+  .item1 { 
+    order: -3;
+  }
+  .item3 { 
+    order: -2;
+  }
+  .partners-button { 
+    margin-bottom: 75px;
+    padding: 15px 35px;
+  }
+  .form { 
+    text-align: center;
+  }
+}
