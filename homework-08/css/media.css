@@ -55,7 +55,7 @@
 }
 @media (min-width: 960px) { 
   .wrapper { 
-    min-width: 960px;
+    min-width: 940px;
     max-width: none;
   }
   .header { 
