@@ -1,0 +1,211 @@
+* { 
+  box-sizing: border-box;
+}
+.wrapper { 
+  max-width: 767px;
+  margin: 0 auto;
+}
+/* header */
+/* .header { 
+  width: 320px;
+  margin: 0 auto;
+}
+.login-link { 
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: Monserat, sans-serif;
+  font-weight: 700;
+}
+.sign-link { 
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: Monserat, sans-serif;
+  font-weight: 700;
+}
+.border { 
+  border: 1px solid transparent;
+  border-radius: 35px;
+  background-color: transparent;
+  padding: 8px 15px;
+}
+.sign-link:hover { 
+ border: 1px solid #fff;
+}
+.login-link:hover { 
+  border: 1px solid #fff; 
+}
+.nav { 
+  text-align: center;
+  /* margin-bottom: 120px; */
+  padding-top: 20px;
+}
+.logo { 
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: Monserat, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10%;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 130px;
+}
+.promo { 
+  background-image: url(../img/Vector\ Smart\ Object.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* section holiday */
+.title-holiday { 
+  font-family: Monserat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  margin: 0 0 20px; 
+}
+.sub-title-holiday { 
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 18px;
+}
+.holiday-button { 
+  border: 1px solid #ff4e50;
+  border-radius: 40px;
+  color: #ff4e50;
+  padding: 15px 50px;
+  cursor: pointer;
+  background: transparent;
+  margin: 0 auto;
+  font-family: Monserat, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0 20px 140px; 
+}
+.holiday-button:hover { 
+  background: #ff4e50;
+  color: #fff;
+}
+.holiday { 
+  width: 320px;
+  margin: 0 auto;
+}
+/* section partners */
+.partners { 
+  width: 320px;
+  margin: 0 auto;
+}
+.title-partners { 
+  font-family: Monserat, sans-serif;
+  font-size: 21.98px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px;
+  padding-top: 73px;
+}
+.img { 
+  text-align: center;
+  position: relative;
+}
+.partners-list { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.partners-list-image { 
+  margin-bottom: 25px;
+}
+.partner-list-name { 
+  margin: 0 20px 20px;
+  text-align: center;
+  font-family: Monserat, sans-serif;
+  font-size: 13.97px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000;
+}
+.partners-list-post { 
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 13.97px;
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+  margin: 0 0 30px;
+  padding: 0 15%;
+}
+.social-link { 
+  position: absolute;
+  top: 81px;
+  left: 185px;
+  width: 40px;
+  height: 40px;
+  --radius: 40px;
+  border-radius: 40px;
+  background-color: #ffa507; 
+  border: 5px solid #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.colb { 
+  background-color: #ffa507; 
+  background-image: url(../img/Shape\ 155.png);
+}
+.telegram { 
+  background-color: #4e73db; 
+  background-image: url(../img/Shape\ 170.png);
+}
+.tea { 
+  background-color: #1cd7ad; 
+  background-image: url(../img/Shape\ 153.png);
+}
+.tv {  
+  background-color: #ff4e50;
+  background-image: url(../img/Shape\ 128.png);
+}
+.form { 
+  text-align: center;
+}
+.partners-button { 
+  font-family: Monserat, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  border: 1px solid #ff4e50;
+  border-radius: 40px;
+  color: #ff4e50;
+  padding: 15px 55px;
+  cursor: pointer;
+  background: transparent;
+  margin: 0 23px 55px;
+}
+.partners-button:hover { 
+background: #ff4e50;
+color: #fff;
+}
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+} */
