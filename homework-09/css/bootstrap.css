@@ -27,23 +27,35 @@
   .container {
     max-width: 300px;
   }
+  .container-fluid { 
+    min-height: 540px;
+  }
 }
 
 @media (min-width: 748px) {
   .container {
-    max-width: 740px;
+    max-width: 728px;
+  }
+  .container-fluid { 
+    min-height: 700px;
   }
 }
 
 @media (min-width: 942px) {
   .container {
-    max-width: 920px;
+    max-width: 922px;
+  }
+  .container-fluid { 
+    min-height: 700px;
+  }
+  .container-fluid:last-child { 
+    min-height: auto;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1180px;
   }
 }
 

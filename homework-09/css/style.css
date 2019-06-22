@@ -5,10 +5,11 @@ body {
   font-family: 'Roboto' 'Montserat';
 }
 .wrapper { 
-  max-width: 1440px;
+  min-width: 320px;
   margin: 0 auto;
 }
 .promo { 
+  min-height: 540px;
   background-image: url(../img/Vector\ Smart\ Object.jpg);
   background-repeat: no-repeat;
   background-position: center;
