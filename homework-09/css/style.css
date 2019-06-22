@@ -1,17 +1,24 @@
 * { 
   box-sizing: border-box;
 }
+body { 
+  font-family: 'Roboto' 'Montserat';
+}
 .wrapper { 
-  max-width: 767px;
+  max-width: 1440px;
   margin: 0 auto;
+}
+.promo { 
+  background-image: url(../img/Vector\ Smart\ Object.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /* header */
-/* .header { 
-  width: 320px;
-  margin: 0 auto;
+.header { 
+
 }
 .login-link { 
-  text-decoration: none;
   color: #fff;
   font-size: 14px;
   line-height: 1.2;
@@ -26,42 +33,56 @@
   font-family: Monserat, sans-serif;
   font-weight: 700;
 }
-.border { 
-  border: 1px solid transparent;
-  border-radius: 35px;
-  background-color: transparent;
-  padding: 8px 15px;
-}
-.sign-link:hover { 
- border: 1px solid #fff;
-}
-.login-link:hover { 
-  border: 1px solid #fff; 
-}
-.nav { 
-  text-align: center;
-  /* margin-bottom: 120px; */
-  padding-top: 20px;
-}
-.logo { 
+.logo-link { 
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
   font-family: Monserat, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 10%;
-  text-align: center;
   text-decoration: none;
-  padding-top: 130px;
 }
-.promo { 
-  background-image: url(../img/Vector\ Smart\ Object.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.border { 
+  border: 1px solid transparent !important;
+  border-radius: 35px;
+  background-color: transparent !important;
+  padding: 8px 15px;
 }
-/* section holiday */
+.sign-link:hover { 
+  border: 1px solid #fff !important;
+  text-decoration: none;
+  color: #fff;
+ }
+ .login-link:hover { 
+   border: 1px solid #fff !important;
+   text-decoration: none;
+   color: #fff; 
+ }
+ .logo-link:hover { 
+  border: 1px solid #fff !important;
+  text-decoration: none;
+  color: #fff; 
+  border-radius: 45px;
+  padding: 8px 15px;  
+ }
+ /* section holiday */
+ .holiday-button { 
+  border: 1px solid #ff4e50;
+  border-radius: 40px;
+  color: #ff4e50;
+  padding: 15px 30px;
+  cursor: pointer;
+  background: transparent;
+  font-family: Monserat, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 100px;
+} 
+  .holiday-button:hover { 
+    background: #ff4e50;
+    color: #fff;
+  }
 .title-holiday { 
   font-family: Monserat, sans-serif;
   font-size: 30px;
@@ -69,8 +90,7 @@
   text-transform: uppercase;
   color: #fff;
   text-align: center;
-  line-height: 1.2;
-  margin: 0 0 20px; 
+  line-height: 1.2; 
 }
 .sub-title-holiday { 
   font-family: Roboto, sans-serif;
@@ -79,33 +99,17 @@
   line-height: 1.2;
   font-weight: 300;
   text-align: center;
-  margin: 0 0 18px;
 }
-.holiday-button { 
-  border: 1px solid #ff4e50;
-  border-radius: 40px;
-  color: #ff4e50;
-  padding: 15px 50px;
-  cursor: pointer;
-  background: transparent;
-  margin: 0 auto;
-  font-family: Monserat, sans-serif;
-  font-size: 14px;
-  line-height: 1.2;
-  font-weight: 700;
-  margin: 0 20px 140px; 
-}
-.holiday-button:hover { 
-  background: #ff4e50;
-  color: #fff;
-}
-.holiday { 
-  width: 320px;
-  margin: 0 auto;
+.partners-list { 
+  list-style: none;
+  padding: 0;
 }
 /* section partners */
-.partners { 
-  width: 320px;
+.img { 
+  position: relative;
+  width: 121px;
+  height: 121px;
+  margin-bottom: 20px;
   margin: 0 auto;
 }
 .title-partners { 
@@ -117,15 +121,6 @@
   text-align: center;
   margin: 0 0 20px;
   padding-top: 73px;
-}
-.img { 
-  text-align: center;
-  position: relative;
-}
-.partners-list { 
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 .partners-list-image { 
   margin-bottom: 25px;
@@ -150,38 +145,6 @@
   margin: 0 0 30px;
   padding: 0 15%;
 }
-.social-link { 
-  position: absolute;
-  top: 81px;
-  left: 185px;
-  width: 40px;
-  height: 40px;
-  --radius: 40px;
-  border-radius: 40px;
-  background-color: #ffa507; 
-  border: 5px solid #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.colb { 
-  background-color: #ffa507; 
-  background-image: url(../img/Shape\ 155.png);
-}
-.telegram { 
-  background-color: #4e73db; 
-  background-image: url(../img/Shape\ 170.png);
-}
-.tea { 
-  background-color: #1cd7ad; 
-  background-image: url(../img/Shape\ 153.png);
-}
-.tv {  
-  background-color: #ff4e50;
-  background-image: url(../img/Shape\ 128.png);
-}
-.form { 
-  text-align: center;
-}
 .partners-button { 
   font-family: Monserat, sans-serif;
   font-size: 14px;
@@ -193,12 +156,41 @@
   padding: 15px 55px;
   cursor: pointer;
   background: transparent;
-  margin: 0 23px 55px;
+  margin: 0 auto 55px;
 }
 .partners-button:hover { 
-background: #ff4e50;
-color: #fff;
-}
+  background: #ff4e50;
+  color: #fff;
+  }
+  .social-link { 
+    position: absolute;
+    top: 81px;
+    left: 90px;
+    width: 40px;
+    height: 40px;
+    --radius: 40px;
+    border-radius: 40px;
+    background-color: #ffa507; 
+    border: 5px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .colb { 
+    background-color: #ffa507; 
+    background-image: url(../img/Shape\ 155.png);
+  }
+  .telegram { 
+    background-color: #4e73db; 
+    background-image: url(../img/Shape\ 170.png);
+  }
+  .tea { 
+    background-color: #1cd7ad; 
+    background-image: url(../img/Shape\ 153.png);
+  }
+  .tv {  
+    background-color: #ff4e50;
+    background-image: url(../img/Shape\ 128.png);
+  }
 .visually-hidden {
 	position: absolute !important;
 	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -208,4 +200,4 @@ color: #fff;
 	height: 1px !important; 
 	width: 1px !important; 
 	overflow: hidden;
-} */
+}
