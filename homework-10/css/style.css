@@ -83,7 +83,7 @@
 }
 .banner { 
   position: relative;
-  background-image: url(../img/Layer\ 15@1x.jpg);
+  background-image: url(../img/Layer15.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -490,4 +490,9 @@ span {
   font-size: 14px;
   line-height: 1.2;
   color: #000; 
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) { 
+  .banner { 
+    background-image: url(../img//Layer15@2x.jpg);
+}
 }
