@@ -338,6 +338,10 @@ font-weight: 400;
   background-repeat: no-repeat;
   background-position: center;
   background: #fce38a; 
+  opacity: 0;
+}
+.team__item:hover .team__link { 
+  opacity: 1;
 }
 .team__link--facebook:hover { 
   background: #f38181;
