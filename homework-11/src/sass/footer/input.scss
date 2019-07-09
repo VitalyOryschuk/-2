@@ -1,0 +1,13 @@
+.footer__input { 
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: $main-text-weight-light; 
+  color: $secondary-dark-color;
+  padding: 0;
+  margin: 0;
+  border: 1px solid $secondary-dark-color;
+  width: 240px;
+  height: 40px;
+}

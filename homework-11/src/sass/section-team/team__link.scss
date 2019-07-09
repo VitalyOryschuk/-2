@@ -1,0 +1,31 @@
+.team__link { 
+  background-repeat: no-repeat;
+  background-position: center;
+  background: $secondary-white-color; 
+  opacity: 0;
+
+  &--facebook:hover { 
+    @extend %bg-link;
+    background-image: url(../../images/icons/sprite1.svg#icon-facebook);
+  }
+
+  &--twitter:hover { 
+    @extend %bg-link;
+    background-image: url(../../images/icons/sprite1.svg#icon-twitter);
+  }
+
+  &--pinterest:hover { 
+    @extend %bg-link;
+    background-image: url(../../images/icons/sprite1.svg#icon-pinterest);
+  }
+  
+  &--instagram:hover { 
+    @extend %bg-link;
+    background-image: url(../../images/icons/sprite1.svg#icon-instagram);
+  }
+}
+
+.team__item:hover .team__link { 
+  opacity: 1;
+}
+

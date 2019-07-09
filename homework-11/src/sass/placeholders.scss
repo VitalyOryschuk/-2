@@ -1,0 +1,49 @@
+%link { 
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $main-text-size;
+  line-height: $main-text-height;
+  font-weight: $main-text-weight-regular;
+}
+
+%bg-link { 
+  background-repeat: no-repeat;
+  background-position: center;
+  background: $primary-hover-color;
+}
+
+%list { 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+%title--italic { 
+  font-family: 'Kaushan Script', cursive;
+  font-weight: $main-text-weight-regular;
+  text-transform: capitalize;
+  font-size: 24px;
+  line-height: $main-text-height;
+  font-style: italic;
+  color: $primary-dark-color;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+%title--regular { 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: $main-text-weight-bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: $main-text-height;
+  color: $primary-dark-color;
+  text-align: center;
+}
+
+%text { 
+  font-family: 'Roboto', sans-serif;
+  color: $secondary-dark-color;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: $main-text-weight-regular;
+}

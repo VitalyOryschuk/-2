@@ -1,0 +1,9 @@
+.footer__link { 
+  @extend %link;
+  color: $primary-dark-color;
+  transition-property: color;
+
+  &:hover { 
+    color: $primary-hover-color;
+  }
+}

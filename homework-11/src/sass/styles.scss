@@ -1,0 +1,45 @@
+/*
+   Import partials below
+*/
+@import './variables';
+@import './normalize';
+@import './fonts';
+@import './base';
+@import './placeholders';
+@import './media.scss';
+// header
+@import './header/banner';
+@import './header/page-nav';
+@import './header/page-nav__menu';
+@import './header/page-nav__link';
+@import './header/page-nav__list-menu';
+// section-banner
+@import './section-banner/section-banner';
+@import './section-banner/title';
+@import './section-banner/sub-title';
+@import './section-banner/button';
+// section-service
+@import './section-service/service';
+@import './section-service/title';
+@import './section-service/service__list';
+@import './section-service/service__item';
+@import './section-service/service-icons';
+@import './section-service/service__item-title';
+@import './section-service/service__title-text';
+// section-team
+@import './section-team/team__title';
+@import './section-team/team__list';
+@import './section-team/team__text';
+@import './section-team/team__name';
+@import './section-team/team__occupation';
+@import './section-team/team__image';
+@import './section-team/team__link';
+@import './section-team/team__social-list';
+@import './section-team/team__foto';
+@import './section-team/team';
+// footer
+@import './footer/footer';
+@import './footer/subscribe';
+@import './footer/input';
+@import './footer/link';
+@import './footer/span';

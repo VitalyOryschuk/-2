@@ -1,0 +1,13 @@
+.page-nav__list-menu { 
+  @extend %list;
+  width: 625px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-nav__list-menu svg { 
+  display: block;
+  width: 15px;
+  height: 15px;
+  fill: $primary-white-color;
+}

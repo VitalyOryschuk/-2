@@ -1,0 +1,15 @@
+* { 
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: $main-font-stack;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.wrapper { 
+  min-width: 1200px;
+  margin: auto;
+  position: relative;
+}

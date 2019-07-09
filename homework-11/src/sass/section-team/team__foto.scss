@@ -1,0 +1,10 @@
+.team__foto { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.2s
+}
+
+.team__item:hover .team__foto { 
+  transform: translate(-10px, -10px);
+}

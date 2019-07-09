@@ -1,0 +1,16 @@
+.section-banner__button { 
+  border: 3px solid $primary-white-color;
+  color: $primary-white-color;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $main-text-size;
+  line-height: $main-text-height;
+  font-weight: $main-text-weight-bold;
+  text-transform: uppercase;
+  margin: 0 auto 230px;
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.service__icon::before { 
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 31px;
+  vertical-align: top;
+}
+
+.service__icon--alarm::before { 
+  background-image: url(../../images/icons/sprite1.svg/#icon-alarm.svg);  
+}
+
+.service__icon--line-graph::before { 
+  background-image: url(../../images/icons/icon-linegraph.svg);
+}
+
+.service__icon--computer::before { 
+  background-image: url(../../images/icons/icon-computer.svg);  
+}
+
+.service__icon--book::before { 
+  background-image: url(../../images/icons/icon-book.svg);
+}
+
+.service__icon--home::before { 
+  background-image: url(../../images/icons/icon-home.svg);
+}
+
+.service__icon--image1::before { 
+  background-image: url(../../images/icons/icon-image.svg);
+}

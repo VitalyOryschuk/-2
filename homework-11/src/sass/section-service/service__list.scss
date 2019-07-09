@@ -1,0 +1,9 @@
+.service__list { 
+  @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+  height: 240px;
+  min-width: 1182px;
+  justify-content: space-around;
+  align-content: space-between;
+}

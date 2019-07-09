@@ -1,0 +1,34 @@
+.team__social-list { 
+  @extend %list;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
+.team__social-list svg { 
+  display: block;
+  width: 32px;
+  height: 32px;
+  fill: $primary-hover-color;
+}
+
+.team__icons a { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $primary-hover-color;
+  width: 55px;
+  height: 55px;
+
+  &:hover svg { 
+    fill: $primary-white-color;
+  }
+}
+
+.team__item:hover .team__social-list a { 
+  transform: translate(-10px, -10px);
+}

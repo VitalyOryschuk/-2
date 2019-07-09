@@ -1,0 +1,12 @@
+.service__item-title { 
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: $main-text-weight-regular;
+  color: $primary-dark-color;
+  display: inline-block;
+  vertical-align: top;
+  text-indent: 1rem;
+}

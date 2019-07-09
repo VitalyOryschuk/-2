@@ -1,0 +1,19 @@
+
+.service__title--italic { 
+  @extend %title--italic;
+}
+
+.service__title--regular { 
+  @extend %title--regular;
+  margin-bottom: 65px;
+
+  &::after { 
+    width: 60px;
+    height: 3px;
+    content: '';
+    display: block;
+    background-color: $primary-hover-color;
+    margin: 45px auto 0px ;
+  }
+}
+

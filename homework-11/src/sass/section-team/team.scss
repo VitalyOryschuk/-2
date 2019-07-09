@@ -1,0 +1,7 @@
+.team::after { 
+  content: '';
+  display: block;
+  height: 1px;
+  min-width: 1192px;
+  background-color: $secondary-dark-color;
+}
