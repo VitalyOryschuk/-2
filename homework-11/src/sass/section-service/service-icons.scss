@@ -7,25 +7,25 @@
 }
 
 .service__icon--alarm::before { 
-  background-image: url(../../images/icons/sprite1.svg/#icon-alarm.svg);  
+  background-image: url(../../../build/images/icons/sprite.svg#ALARM);  
 }
 
 .service__icon--line-graph::before { 
-  background-image: url(../../images/icons/icon-linegraph.svg);
+  background-image: url(/src/images/icons/sprite.svg#ALARM);
 }
 
 .service__icon--computer::before { 
-  background-image: url(../../images/icons/icon-computer.svg);  
+  background-image: url(../images/sprite.svg#COMPUTER-_-OK);  
 }
 
 .service__icon--book::before { 
-  background-image: url(../../images/icons/icon-book.svg);
+  background-image: url(../images/sprite.svg#BOOK-2);
 }
 
 .service__icon--home::before { 
-  background-image: url(../../images/icons/icon-home.svg);
+  background-image: url(../images/sprite.svg#HOME);
 }
 
 .service__icon--image1::before { 
-  background-image: url(../../images/icons/icon-image.svg);
+  background-image: url(../images/sprite.svg#IMAGE);
 }
