@@ -645,27 +645,27 @@ body {
 }
 
 .service__icon--alarm::before {
-  background-image: url(../../../build/images/icons/sprite.svg#ALARM);
+  background-image: url(../images/icon-ALARM.svg);
 }
 
 .service__icon--line-graph::before {
-  background-image: url(/src/images/icons/sprite.svg#ALARM);
+  background-image: url(../images/icon-linegraph.svg);
 }
 
 .service__icon--computer::before {
-  background-image: url(../images/sprite.svg#COMPUTER-_-OK);
+  background-image: url(../images/icon-computer.svg);
 }
 
 .service__icon--book::before {
-  background-image: url(../images/sprite.svg#BOOK-2);
+  background-image: url(../images/icon-dook.svg);
 }
 
 .service__icon--home::before {
-  background-image: url(../images/sprite.svg#HOME);
+  background-image: url(../images/icon-home.svg);
 }
 
 .service__icon--image1::before {
-  background-image: url(../images/sprite.svg#IMAGE);
+  background-image: url(../images/icon-image.svg);
 }
 
 .service__item-title {
